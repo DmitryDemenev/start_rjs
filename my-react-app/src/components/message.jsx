@@ -1,9 +1,14 @@
 import React from "react";
 import '../style.css'
 
-function Message (props){
+function Message ({ author, text }){
+    return(
+        <>
+        <p className="redtext">Message: {text}!!!!!</p>
+        <p className="redtext">Author: {author}!!!!!</p>
+        </>
+    )
 
-    return <h1 className="redtext">Hello, {props.name}!!!!!</h1>
 
 }
 export default Message;
