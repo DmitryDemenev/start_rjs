@@ -1,4 +1,4 @@
-import Message from './components/message';
+import Message from './components/Message';
 import React from 'react';
 
 
