@@ -1,4 +1,34 @@
-.redtext {
-color: blue;
-margin-left: 200px;
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
+
+.message-text{
+    width: 350px;
+    word-wrap: break-word;
+}
+.message{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(233, 239, 232);
+    
+
+}
+
+.form{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.App{
+    margin-top: 100px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    max-height: 400px;
+    overflow: auto;
+               
 }
